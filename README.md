@@ -35,3 +35,6 @@ An unfinished dash server is also included. If started after the bot it will con
 
 The dash requires gulp to be run in order to include compiled js and less. Gulpfile is setup to support [Babel](https://babeljs.io/) and [Browserify](http://browserify.org/)
 
+### Notes
+
+I'm opening this project up because it's success is marginal or not *currently* worthwhile at scale. Also, I hope that someone else can benefit from the example of interacting with the exchange API. This was an experiment in learning more about BTC exchanges and automated trading. At very small order sizes, trading on the spread or using moving averages is sometimes successful. However, when attempting to increase trade size, the bot does not account for partial order fills, and the exchange volume and trade sizes make success more complex / difficult.
