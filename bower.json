@@ -1,0 +1,8 @@
+{
+  "name": "coinbase-exchange-bot",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "jquery": "2.1.1"
+  }
+}

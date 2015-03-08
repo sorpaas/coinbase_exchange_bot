@@ -1,0 +1,78 @@
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro|Prociono);
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font: 16px "Source Sans Pro", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+pre {
+  font-size: 16px;
+}
+@media screen and (min-width: 640px) {
+  body {
+    font-size: 18px;
+  }
+  pre {
+    font-size: 14px;
+  }
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+h1,
+h2 {
+  color: #FFFFFF;
+}
+h2 {
+  font-size: 18px;
+}
+a {
+  color: #5e5e5e;
+  text-decoration: none;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+code {
+  overflow-x: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.clearfix {
+  clear: both;
+}
+.hide {
+  display: none;
+}
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
